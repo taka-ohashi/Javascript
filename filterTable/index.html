@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel ="stylesheet" type = "text/css" href="style/app.css">
+<script src = "scripts/app.js"></script>
+</head>
+<body>
+<h2>Filterable Table</h2>
+<p>Type something in the input field to search the table for first names, last names or emails:</p>  
+<input id="myInput" type="text" placeholder="Search database..">
+<br>
+<br>
+
+<table>
+  <thead>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Email</th>
+  </tr>
+  </thead>
+  <tbody id="myTable">
+  <tr>
+    <td>Lebron</td>
+    <td>James</td>
+    <td>lebronjames@example.com</td>
+  </tr>
+  <tr>
+    <td>Kawhi</td>
+    <td>Leonard</td>
+    <td>kawhileonard@gmail.com</td>
+  </tr>
+  <tr>
+    <td>Lonzo</td>
+    <td>Ball</td>
+    <td>lonzoball@bigballerbrand.com</td>
+  </tr>
+  <tr>
+    <td>JR</td>
+    <td>Smith</td>
+    <td>jrsmith@kanye.com</td>
+  </tr>
+  </tbody>
+</table>
+  
+<p>Javascript filter method allows dynamic filtering</p>
+
+</body>
+</html>
